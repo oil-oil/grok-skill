@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="grok：把 Codex 任务交给本机 Grok CLI">
+  <img src="./assets/readme/hero.svg" width="100%" alt="grok：把任务交给本机 Grok CLI">
 </p>
 
 <h1 align="center">grok</h1>
 
-把前端实现、UI 优化、代码评审和图片生成任务委托给本机 Grok CLI 的 Codex Skill。
+把前端实现、UI 优化、代码评审和图片生成任务委托给本机 Grok CLI 的 Skill。
 
 它提供一个轻量 wrapper，负责传递工作区和入口文件、恢复会话、保存流式日志，并把 Grok 的结果整理成 Markdown 报告。
 
@@ -46,7 +46,7 @@ npx skills add oil-oil/grok
 
 ## 使用
 
-在 Codex 中明确调用：
+在支持 Skills 的 Agent 中明确调用：
 
 ```text
 使用 $grok 优化这个项目的设置页前端，保持现有行为，并检查移动端布局。

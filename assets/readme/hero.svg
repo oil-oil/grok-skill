@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">grok</title>
-  <desc id="desc">A Codex Skill that delegates work to the local Grok CLI.</desc>
+  <desc id="desc">A Skill that delegates work to the local Grok CLI.</desc>
   <rect width="1200" height="320" rx="28" fill="#050505"/>
 
   <g transform="translate(72 68) scale(.36)" fill="#fff">
@@ -9,8 +9,8 @@
 
   <line x1="286" y1="64" x2="286" y2="256" stroke="#343434" stroke-width="2"/>
   <text x="342" y="165" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="112" font-weight="800" letter-spacing="-5">grok</text>
-  <text x="350" y="220" fill="#b8b8b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26">CODEX SKILL</text>
-  <path d="M590 211h128" stroke="#b7ff4a" stroke-width="4" stroke-linecap="round"/>
-  <path d="m704 198 16 13-16 13" fill="none" stroke="#b7ff4a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="752" y="220" fill="#fff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26">LOCAL GROK CLI</text>
+  <text x="350" y="220" fill="#b8b8b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26">SKILL</text>
+  <path d="M470 211h128" stroke="#b7ff4a" stroke-width="4" stroke-linecap="round"/>
+  <path d="m584 198 16 13-16 13" fill="none" stroke="#b7ff4a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="632" y="220" fill="#fff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26">LOCAL GROK CLI</text>
 </svg>
