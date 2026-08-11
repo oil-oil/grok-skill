@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grok"
+  short_description: "Delegate frontend coding and image work to Grok"
+  default_prompt: "Use $grok to improve this frontend or generate the requested image."
