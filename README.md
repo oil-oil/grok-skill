@@ -1,4 +1,8 @@
-# Grok Skill
+<p align="center">
+  <img src="./skills/grok/assets/grok-icon.svg" width="112" alt="Grok 图标">
+</p>
+
+<h1 align="center">Grok Skill</h1>
 
 把前端实现、UI 优化、代码评审和图片生成任务委托给本机 Grok CLI 的 Codex Skill。
 
@@ -110,6 +114,7 @@ python3 ~/.codex/skills/grok/scripts/cutout.py raw.png final.png
 skills/grok/
 ├── SKILL.md
 ├── agents/openai.yaml
+├── assets/grok-icon.svg
 └── scripts/
     ├── ask_grok.sh
     ├── run_grok.py
@@ -119,6 +124,8 @@ skills/grok/
 ## 说明
 
 这是社区维护的非官方 Skill，与 xAI 没有隶属或背书关系。Grok 名称及相关商标归其权利人所有。
+
+SVG 图标来自 [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Grok-icon.svg)，采用 CC0 公共领域贡献许可。
 
 ## License
 

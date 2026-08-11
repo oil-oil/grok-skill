@@ -1,4 +1,7 @@
 interface:
   display_name: "Grok"
   short_description: "Delegate frontend coding and image work to Grok"
+  icon_small: "./assets/grok-icon.svg"
+  icon_large: "./assets/grok-icon.svg"
+  brand_color: "#000000"
   default_prompt: "Use $grok to improve this frontend or generate the requested image."
