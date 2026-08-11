@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./skills/grok/assets/grok-icon.svg" width="112" alt="Grok 图标">
+  <img src="./assets/readme/hero.svg" width="100%" alt="grok：把 Codex 任务交给本机 Grok CLI">
 </p>
 
-<h1 align="center">Grok Skill</h1>
+<h1 align="center">grok</h1>
 
 把前端实现、UI 优化、代码评审和图片生成任务委托给本机 Grok CLI 的 Codex Skill。
 
@@ -35,13 +35,13 @@ grok --version
 使用 Skills CLI：
 
 ```bash
-npx skills add oil-oil/grok-skill
+npx skills add oil-oil/grok
 ```
 
 也可以让 Agent 安装：
 
 ```text
-安装这个 Skill：https://github.com/oil-oil/grok-skill
+安装这个 Skill：https://github.com/oil-oil/grok
 ```
 
 ## 使用
