@@ -15,13 +15,20 @@ import threading
 import time
 
 
+DEFAULT_MODEL = "grok-4.6"
+
+
 def arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("prompt")
     parser.add_argument("--workspace", default=os.getcwd())
     parser.add_argument("--file", action="append", default=[])
     parser.add_argument("--session")
-    parser.add_argument("--model")
+    parser.add_argument(
+        "--model",
+        default=DEFAULT_MODEL,
+        help=f"Grok model id (default: {DEFAULT_MODEL})",
+    )
     parser.add_argument("--reasoning")
     parser.add_argument("--read-only", action="store_true")
     parser.add_argument(

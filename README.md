@@ -84,7 +84,7 @@ elapsed=<seconds>s
 | `--workspace <path>` | 指定目标工作目录 |
 | `--file <path>` | 添加入口文件，可重复使用 |
 | `--session <id>` | 恢复已有 Grok 会话 |
-| `--model <id>` | 覆盖模型 |
+| `--model <id>` | 覆盖模型，默认 `grok-4.6` |
 | `--reasoning <effort>` | 设置推理强度 |
 | `--read-only` | 使用 plan 权限模式并禁止写入 |
 | `--check` | 在提示词中要求运行相关检查，不传给 Grok CLI |

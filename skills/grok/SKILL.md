@@ -85,7 +85,7 @@ python3 ~/.codex/skills/grok/scripts/cutout.py raw.png final.png
 - `--workspace <path>`：目标工作目录，默认当前目录。
 - `--file <path>`：添加起始文件路径，可重复使用。
 - `--session <id>`：恢复已有 Grok 会话。
-- `--model <id>`：覆盖模型；本机默认当前报告为 `grok-4.5`。
+- `--model <id>`：覆盖模型；wrapper 默认使用 `grok-4.6`。
 - `--reasoning <effort>`：向 Grok 传入推理强度。
 - `--read-only`：使用 plan 权限模式并明确禁止写入。
 - `--check`：只在提示词中要求 Grok 运行相关检查，绝不把该参数传给 Grok CLI。
